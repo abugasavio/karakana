@@ -1,0 +1,10 @@
+{
+  "cities": [
+    {"id": 1, "name": "Kisumu", "country": "Kenya"},
+    {"id": 2, "name": "Nairobi", "country": "Kenya"},
+    {"id": 3, "name": "Arusha", "country": "Tanzania"},
+    {"id": 4, "name": "Kampala", "country": "Uganda"},
+    {"id": 5, "name": "Moshi", "country": "Tanzania"},
+    {"id": 6, "name": "Nakuru", "country": "Kenya"}
+  ]
+}
