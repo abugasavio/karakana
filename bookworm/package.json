@@ -1,0 +1,42 @@
+{
+  "name": "bookworm",
+  "version": "1.0.0",
+  "description": "Server + Frontend - reactjs/redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "nodemon --exec babel-node server/server.js --presets es2015,stage-0",
+    "lint": "eslint server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savioabuga/karakana.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "Redux"
+  ],
+  "author": "Savio Abuga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savioabuga/karakana/issues"
+  },
+  "homepage": "https://github.com/savioabuga/karakana#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "react": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "eslint": "^3.2.2",
+    "eslint-plugin-react": "^6.0.0"
+  }
+}
