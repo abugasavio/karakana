@@ -4,8 +4,7 @@ import path from 'path';
 module.exports = {
   devtool: 'inline-source-map',
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
+    'webpack-hot-middleware/client',
     path.join(__dirname, '/client/index.js')
   ],
   output: {
